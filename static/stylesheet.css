@@ -2,24 +2,16 @@ header {
     background-color: #76B55B;
     height: 60px;
     margin: -8px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    text-align:left;
 }
 
-.header-logo {
+h1{
     color: #fff;
-    font-size: 25px;
-    margin: 15px 25px;
 }
 
-.header_img {
-    height: 25px;
-    margin: 15px 25px;
-}
-
-.main {
-    height: 370px;
+img{
+    width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -46,19 +38,11 @@ form {
 
 footer {
     background-color: #F7F7F7;
-    height: 110px;
-    margin: -8px;
-    position: relative;
-}
-
-.footer_img {
-    height: 25px;
-    margin: 15px 25px;
+    height: 30px;
+    margin: -2px;
+    text-align: right;
 }
 
 small {
-    margin: 15px 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    color: #444444;
 }

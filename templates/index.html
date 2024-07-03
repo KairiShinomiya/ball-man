@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Number Classifier</title>
     <link rel="stylesheet" href="./static/stylesheet.css">
 </head>
-<body>
-    <header>   
-        <img class="header_img" src="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1621500180546399.png" alt="Aidemy">
-        <a class="header-logo" href="#">Number Classifier</a>
-    </header>
+<header>
+    <h1>Ball-Man-Full Classifier</h1>
+</header>
 
+<body>
     <div class="main">    
-        <h2> AIが送信された画像の数字を識別します</h2>
+        <img class="title" src="./static/ballmanfulltop.jpg">
+        <h2> ボールを持った人が全身写っていればball-man-full<br>
+            それ以外はotherと表示されます</h2>
         <p>画像を送信してください</p>
         <form method="POST" enctype="multipart/form-data">
             <input class="file_choose" type="file" name="file">
@@ -23,9 +23,12 @@
         <div class="answer">{{answer}}</div>
     </div>
 
-    <footer>
-        <img class="footer_img" src="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1621500180546399.png" alt="Aidemy">
-        <small>&copy; 2019 Aidemy, inc.</small>   
-    </footer>
+    
+
 </body>
+
+<footer>
+    <small>&copy; 2019 Aidemy, inc.</small>   
+</footer>
+
 </html>
